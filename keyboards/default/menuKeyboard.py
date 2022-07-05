@@ -12,7 +12,11 @@ menu1 = ReplyKeyboardMarkup(
         [
          KeyboardButton(text="📣Telegram Kanalga ulanish"),
          KeyboardButton(text="▶YouTube kanalga ulanish")
+        ],
+        [
+         KeyboardButton(text="💻Reklama xizmati")
         ]
+
     ],
     resize_keyboard=True
 )

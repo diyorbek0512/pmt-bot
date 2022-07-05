@@ -254,3 +254,7 @@ async def assds(message: Message):
 async def addaaaq(message: Message):
     await message.answer("O'zingizg"
                          "a muhim bo'lgan bo'limni tanlashingiz mumkin!", reply_markup=menu1)
+
+@dp.message_handler(text="💻Reklama xizmati")
+async def adsd1qm(message: Message):
+    await message.answer("💻Reklama xizmatiga xush kelibsiz!\nBu bot orqali o'zingizning ilmiy reklamalaringizni tarqatishingiz mumkin.\n✅Buning uchun @school_admin0 bilan aloqaga chiqing")
