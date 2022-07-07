@@ -18,21 +18,21 @@ async def ksa(message: Message):
 
 @dp.message_handler(text="❇Prezident Maktabi Hayoti❇")
 async def sas(message: Message):
-    await message.answer_video("https://t.me/fornothing0/8", caption="Prezident Maktabi hayoti haqida to'liq video bilan tanishib chiqing! \n\n@prezident_maktabiga_tayyorlovv")
+    await message.answer_video("https://t.me/fornothing0/8", caption="Prezident Maktabi hayoti haqida to'liq video bilan tanishib chiqing! \n\n@pmt_test")
 @dp.message_handler(text="❔❓Namunaviy savollar")
 async def dasdasd(message: Message):
     await message.answer(text="Quyidagi fanlardan birini tanlang:", reply_markup=menu3)
 @dp.message_handler(text="📐Matematika")
 async def show_c4gdoki(message: Message):
-    await message.answer_photo("https://t.me/prezident_maktabiga_tayyorlovv/88", caption="@prezident_maktabiga_tayyorlovv")
-    await message.answer_photo("https://t.me/prezident_maktabiga_tayyorlovv/89", caption="@prezident_maktabiga_tayyorlovv")
-    await message.answer_photo("https://t.me/prezident_maktabiga_tayyorlovv/90", caption="@prezident_maktabiga_tayyorlovv")
-    await message.answer_photo("https://t.me/prezident_maktabiga_tayyorlovv/91", caption="@prezident_maktabiga_tayyorlovv")
-    await message.answer_photo("https://t.me/prezident_maktabiga_tayyorlovv/92", caption="@prezident_maktabiga_tayyorlovv")
-    await message.answer_photo("https://t.me/prezident_maktabiga_tayyorlovv/93", caption="@prezident_maktabiga_tayyorlovv")
-    await message.answer_photo("https://t.me/prezident_maktabiga_tayyorlovv/94", caption="@prezident_maktabiga_tayyorlovv")
-    await message.answer_photo("https://t.me/prezident_maktabiga_tayyorlovv/95", caption="@prezident_maktabiga_tayyorlovv")
-    await message.answer_photo("https://t.me/prezident_maktabiga_tayyorlovv/96", caption="@prezident_maktabiga_tayyorlovv")
+    await message.answer_photo("https://t.me/pmt_test/88", caption="@pmt_test")
+    await message.answer_photo("https://t.me/pmt_test/89", caption="@pmt_test")
+    await message.answer_photo("https://t.me/pmt_test/90", caption="@pmt_test")
+    await message.answer_photo("https://t.me/pmt_test/91", caption="@pmt_test")
+    await message.answer_photo("https://t.me/pmt_test/92", caption="@pmt_test")
+    await message.answer_photo("https://t.me/pmt_test/93", caption="@pmt_test")
+    await message.answer_photo("https://t.me/pmt_test/94", caption="@pmt_test")
+    await message.answer_photo("https://t.me/pmt_test/95", caption="@pmt_test")
+    await message.answer_photo("https://t.me/pmt_test/96", caption="@pmt_test")
     await message.answer(text="Javoblaringizni yuboring")
     await statedata.salom.set()
 
@@ -168,26 +168,26 @@ async def shw(message: Message):
     await message.answer(text="Kerakli bo'limni tanlang", reply_markup=menu5)
 @dp.message_handler(text="📈 Tanqidiy fikrlash")
 async def ss(message: Message):
-    await message.answer_video("https://t.me/fornothing0/11", caption="@prezident_maktabiga_tayyorlovv")
-    await message.answer_video("https://t.me/fornothing0/12", caption="@prezident_maktabiga_tayyorlovv")
+    await message.answer_video("https://t.me/fornothing0/11", caption="@pmt_test")
+    await message.answer_video("https://t.me/fornothing0/12", caption="@pmt_test")
     await message.answer(text="https://www.youtube.com/watch?v=067kc_LBwFo")
 @dp.message_handler(text="📖 Matematika")
 async def ss(message: Message):
-    await message.answer_video("https://t.me/fornothing0/13", caption="@prezident_maktabiga_tayyorlovv")
-    await message.answer_video("https://t.me/fornothing0/14", caption="@prezident_maktabiga_tayyorlovv")
-    await message.answer_video("https://t.me/fornothing0/15", caption="@prezident_maktabiga_tayyorlovv")
-    await message.answer_video("https://t.me/fornothing0/16", caption="@prezident_maktabiga_tayyorlovv")
-    await message.answer_video("https://t.me/fornothing0/17", caption="@prezident_maktabiga_tayyorlovv")
-    await message.answer_video("https://t.me/fornothing0/18", caption="@prezident_maktabiga_tayyorlovv")
-    await message.answer_video("https://t.me/fornothing0/19", caption="@prezident_maktabiga_tayyorlovv")
-    await message.answer_video("https://t.me/fornothing0/20", caption="@prezident_maktabiga_tayyorlovv")
-    await message.answer_video("https://t.me/fornothing0/21", caption="@prezident_maktabiga_tayyorlovv")
-    await message.answer_video("https://t.me/fornothing0/12", caption="@prezident_maktabiga_tayyorlovv")
+    await message.answer_video("https://t.me/fornothing0/13", caption="@pmt_test")
+    await message.answer_video("https://t.me/fornothing0/14", caption="@pmt_test")
+    await message.answer_video("https://t.me/fornothing0/15", caption="@pmt_test")
+    await message.answer_video("https://t.me/fornothing0/16", caption="@pmt_test")
+    await message.answer_video("https://t.me/fornothing0/17", caption="@pmt_test")
+    await message.answer_video("https://t.me/fornothing0/18", caption="@pmt_test")
+    await message.answer_video("https://t.me/fornothing0/19", caption="@pmt_test")
+    await message.answer_video("https://t.me/fornothing0/20", caption="@pmt_test")
+    await message.answer_video("https://t.me/fornothing0/21", caption="@pmt_test")
+    await message.answer_video("https://t.me/fornothing0/12", caption="@pmt_test")
 
 
 @dp.message_handler(text="📣Telegram Kanalga ulanish")
 async def dfasssscp(message: Message):
-    await message.answer(text="[Kanalga ulanish](https://t.me/prezident_maktabiga_tayyorlovv)", parse_mode="Markdown")
+    await message.answer(text="[Kanalga ulanish](https://t.me/pmt_test)", parse_mode="Markdown")
 
 
 
