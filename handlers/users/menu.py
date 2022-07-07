@@ -68,12 +68,11 @@ async def show_phop(message: Message):
 
 @dp.message_handler(text="📗 Tanqidiy Fikrlash")
 async def show_msg(message: Message):
-    await message.answer_document("https://t.me/fornothing0/9",caption="@prezident_maktabiga_tayyorlovv")
+    await message.answer_document("https://t.me/fornothing0/9",caption="@pmt_test")
 
 @dp.message_handler(text="📖 Ingliz tili")
 async def show_msg(message: Message):
-    await message.answer_document("https://t.me/fornothing0/10", caption="@"
-                                                                         "prezident_maktabiga_tayyorlovv")
+    await message.answer_document("https://t.me/fornothing0/10", caption="@pmt_test")
 
 
 @dp.message_handler(text="📖Tanqidiy Fikrlash")
