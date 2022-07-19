@@ -48,22 +48,22 @@ menu3 = ReplyKeyboardMarkup(
     ],
     resize_keyboard=True
 )
-menu4 =  ReplyKeyboardMarkup(
-    keyboard= [
-        [
-            KeyboardButton(text="📖Tanqidiy Fikrlash"),
-            KeyboardButton(text="📖Ingliz tili")
-        ],
-        [
-            KeyboardButton(text="🧮Matematika"),
-            KeyboardButton(text="📙Muammoli Masalalar"),
-        ],
-        [
-         KeyboardButton(text="Go Back.")
-        ],
-    ],
-    resize_keyboard=True
-)
+# menu4 =  ReplyKeyboardMarkup(
+#     keyboard= [
+#         [
+#             KeyboardButton(text="📖Tanqidiy Fikrlash"),
+#             KeyboardButton(text="📖Ingliz tili")
+#         ],
+#         [
+#             KeyboardButton(text="🧮Matematika"),
+#             KeyboardButton(text="📙Muammoli Masalalar"),
+#         ],
+#         [
+#          KeyboardButton(text="Go Back.")
+#         ],
+#     ],
+#     resize_keyboard=True
+# )
 
 menu5 = ReplyKeyboardMarkup(
     keyboard= [

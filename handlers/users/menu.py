@@ -2,7 +2,7 @@ from aiogram import types
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters import Command, Text
 from aiogram.types import Message, ReplyKeyboardMarkup, ReplyKeyboardRemove
-from keyboards.default.menuKeyboard import menu2, menu3, menu1, menu4, menu5, menu6
+from keyboards.default.menuKeyboard import menu2, menu3, menu1, menu5, menu6
 from keyboards.default.pythonkeyboard import menupython, menupythona, menupythonb, menupythonc, menupython_gobaack
 from loader import dp
 from states.statedata import statedata
@@ -74,93 +74,93 @@ async def show_msg(message: Message):
 async def show_msg(message: Message):
     await message.answer_document("https://t.me/fornothing0/10", caption="@pmt_test")
 
+#
+# @dp.message_handler(text="📖Tanqidiy Fikrlash")
+# async def show_msg(message: Message):
+#     await message.answer(text="👇👇👇Tanlang", reply_markup=menupython)
+#
+#
+# @dp.message_handler(text="📜Ma'lumot")
+# async def show_b(message: Message):
+#     await message.answer(
+#         text="📁Prezident Maktabi Imtixonining 2-bosqichidan o'tish uchun alohida chuqur tayyorgarlik bo'yicha pdf formatda *Tanqidiy Fikrlash* to'plamini xarid qilishingiz mumkin✅\n📎U tòplam 500sahifali bòlib ichida 400xil savollarning har birining ishlanish usullari bilan bor✅",
+#         parse_mode="Markdown")
+#
+#
+# @dp.message_handler(text="📋Namuna")
+# async def show_ha(message: Message):
+#     await message.answer_photo('https://t.me/qmkdetb/31', caption="Tanqidiy Fikrlash namuna")
+#
+#
+# @dp.message_handler(text="🛒Xarid Qilish")
+# async def show_ha(message: Message):
+#     await message.answer(text="📥Xarid Qilishingiz uchun telegram orqali \n @school_admin0 ga yozing✅")
+#
+#
+# @dp.message_handler(text="📙Muammoli Masalalar")
+# async def show_msg(message: Message):
+#     await message.answer(text="👇👇👇Tanlang", reply_markup=menupythona)
+#
+#
+# @dp.message_handler(text="📜Ma'lumot.")
+# async def show_b(message: Message):
+#     await message.answer(
+#         text="📁Prezident Maktabi Imtixonining 2-bosqichidan o'tish uchun alohida chuqur tayyorgarlik bo'yicha pdf formatda *Muammoli Masalalar* to'plamini xarid qilishingiz mumkin✅\n📎U tòplam 500sahifali bòlib ichida 400xil savollarning har birining ishlanish usullari bilan bor✅",
+#         parse_mode="Markdown")
+#
+#
+# @dp.message_handler(text="📋Namuna.")
+# async def show_ha(message: Message):
+#     await message.answer_photo("https://t.me/qmkdetb/32", caption='Muammoli Masalalar')
+#
+#
+# @dp.message_handler(text="🛒Xarid Qilish")
+# async def show_ha(message: Message):
+#     await message.answer(text="📥Xarid Qilishingiz uchun telegram orqali \n @school_admin0 ga yozing✅")
+#
+#
+# @dp.message_handler(text="🧮Matematika")
+# async def show_haha(message: Message):
+#     await message.answer(text="👇👇👇Tanlang", reply_markup=menupythonb)
+#
+#
+# @dp.message_handler(text="📜Ma'lumot .")
+# async def show_haim(message: Message):
+#     await message.answer(
+#         text="📁Prezident Maktabi Imtixonining 1-bosqichidan o'tish uchun alohida chuqur tayyorgarlik bo'yicha pdf formatda *Matematika* nomli to'plam orqali o'z ustingizda tayyorgarlik ko'rishingiz mumkin✅",
+#         parse_mode="Markdown")
+#
+#
+#
+# @dp.message_handler(text="📖Ingliz tili")
+# async def show_aka(message: Message):
+#     await message.answer(text="👇👇👇Tanlang", reply_markup=menupythonc)
+#
+#
+# @dp.message_handler(text="📜 Ma'lumot")
+# async def show_how(message: Message):
+#     await message.answer(
+#         text="📁Prezident Maktabi Imtixonining 2-bosqichidan o'tish uchun alohida chuqur tayyorgarlik uchun <b><u>Ingliz Tili</u></b> dan <em>Reading</em>, <em>Grammar</em> yo'nalishlari bo'yicha tuzilgan kitobdan o'z ustingizda ishlashingiz va darajangizni ko'tarib olishingiz mumkin✅",
+#         parse_mode="Html")
+#
+#
+# @dp.message_handler(text="🔰Namuna")
+# async def show_alkali(message: Message):
+#     await message.answer_photo("https://t.me/qmkdetb/33", caption="Ingliz tili \nTo'plamdan namuna")
+#
+# @dp.message_handler(text="Go back.")
+# async def show_kali(message: Message):
+#     await message.answer("O'zingizga muhim bo'lgan bo'limni tanlashingiz mumkin", reply_markup=menu1)
 
-@dp.message_handler(text="📖Tanqidiy Fikrlash")
-async def show_msg(message: Message):
-    await message.answer(text="👇👇👇Tanlang", reply_markup=menupython)
-
-
-@dp.message_handler(text="📜Ma'lumot")
-async def show_b(message: Message):
-    await message.answer(
-        text="📁Prezident Maktabi Imtixonining 2-bosqichidan o'tish uchun alohida chuqur tayyorgarlik bo'yicha pdf formatda *Tanqidiy Fikrlash* to'plamini xarid qilishingiz mumkin✅\n📎U tòplam 500sahifali bòlib ichida 400xil savollarning har birining ishlanish usullari bilan bor✅",
-        parse_mode="Markdown")
-
-
-@dp.message_handler(text="📋Namuna")
-async def show_ha(message: Message):
-    await message.answer_photo('https://t.me/qmkdetb/31', caption="Tanqidiy Fikrlash namuna")
-
-
-@dp.message_handler(text="🛒Xarid Qilish")
-async def show_ha(message: Message):
-    await message.answer(text="📥Xarid Qilishingiz uchun telegram orqali \n @school_admin0 ga yozing✅")
-
-
-@dp.message_handler(text="📙Muammoli Masalalar")
-async def show_msg(message: Message):
-    await message.answer(text="👇👇👇Tanlang", reply_markup=menupythona)
-
-
-@dp.message_handler(text="📜Ma'lumot.")
-async def show_b(message: Message):
-    await message.answer(
-        text="📁Prezident Maktabi Imtixonining 2-bosqichidan o'tish uchun alohida chuqur tayyorgarlik bo'yicha pdf formatda *Muammoli Masalalar* to'plamini xarid qilishingiz mumkin✅\n📎U tòplam 500sahifali bòlib ichida 400xil savollarning har birining ishlanish usullari bilan bor✅",
-        parse_mode="Markdown")
-
-
-@dp.message_handler(text="📋Namuna.")
-async def show_ha(message: Message):
-    await message.answer_photo("https://t.me/qmkdetb/32", caption='Muammoli Masalalar')
-
-
-@dp.message_handler(text="🛒Xarid Qilish")
-async def show_ha(message: Message):
-    await message.answer(text="📥Xarid Qilishingiz uchun telegram orqali \n @school_admin0 ga yozing✅")
-
-
-@dp.message_handler(text="🧮Matematika")
-async def show_haha(message: Message):
-    await message.answer(text="👇👇👇Tanlang", reply_markup=menupythonb)
-
-
-@dp.message_handler(text="📜Ma'lumot .")
-async def show_haim(message: Message):
-    await message.answer(
-        text="📁Prezident Maktabi Imtixonining 1-bosqichidan o'tish uchun alohida chuqur tayyorgarlik bo'yicha pdf formatda *Matematika* nomli to'plam orqali o'z ustingizda tayyorgarlik ko'rishingiz mumkin✅",
-        parse_mode="Markdown")
-
-
-
-@dp.message_handler(text="📖Ingliz tili")
-async def show_aka(message: Message):
-    await message.answer(text="👇👇👇Tanlang", reply_markup=menupythonc)
-
-
-@dp.message_handler(text="📜 Ma'lumot")
-async def show_how(message: Message):
-    await message.answer(
-        text="📁Prezident Maktabi Imtixonining 2-bosqichidan o'tish uchun alohida chuqur tayyorgarlik uchun <b><u>Ingliz Tili</u></b> dan <em>Reading</em>, <em>Grammar</em> yo'nalishlari bo'yicha tuzilgan kitobdan o'z ustingizda ishlashingiz va darajangizni ko'tarib olishingiz mumkin✅",
-        parse_mode="Html")
-
-
-@dp.message_handler(text="🔰Namuna")
-async def show_alkali(message: Message):
-    await message.answer_photo("https://t.me/qmkdetb/33", caption="Ingliz tili \nTo'plamdan namuna")
-
-@dp.message_handler(text="Go back.")
-async def show_kali(message: Message):
-    await message.answer("O'zingizga muhim bo'lgan bo'limni tanlashingiz mumkin", reply_markup=menu1)
-
-@dp.message_handler(text="🔍MAXSUS TO'PLAM")
-async def sjwww(message: Message):
-    await message.answer("O'zingizga kerakli to'plamni tanlang va ma'lumotlarga ega bo'ling!", reply_markup=menu4)
-
-
-@dp.message_handler(text="Go Back")
-async def show_kali(message: Message):
-    await message.answer("Kerakli bo'limni tanlang", reply_markup=menu4)
-
+# @dp.message_handler(text="🔍MAXSUS TO'PLAM")
+# async def sjwww(message: Message):
+#     await message.answer("O'zingizga kerakli to'plamni tanlang va ma'lumotlarga ega bo'ling!", reply_markup=menu4)
+#
+#
+# @dp.message_handler(text="Go Back")
+# async def show_kali(message: Message):
+#     await message.answer("Kerakli bo'limni tanlang", reply_markup=menu4)
+#
 
 @dp.message_handler(text="🗂Tayyorgarlik uchun darslar")
 async def shw(message: Message):
