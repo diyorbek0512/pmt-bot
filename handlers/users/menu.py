@@ -58,7 +58,7 @@ async def echmo(message: types.Message, state: FSMContext):
         @dp.message_handler(text="Go Back.")
         async def show_phop(message: Message):
             await state.finish()
-            await message.answer(text="Quyidagilarni tanlang", reply_markup=menu2)
+            await message.answer(text="Quyidagilarni tanlang", reply_markup=menu1)
 
 
 @dp.message_handler(text="Go Back.")
