@@ -2,11 +2,14 @@ from aiogram import types
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters import Command, Text
 from aiogram.types import Message, ReplyKeyboardMarkup, ReplyKeyboardRemove
-from keyboards.default.menuKeyboard import menu2, menu3, menu1, menu5, menu6
+from keyboards.default.menuKeyboard import menu1, menu2, menu3, menu5, menu6
 from keyboards.default.pythonkeyboard import menupython, menupythona, menupythonb, menupythonc, menupython_gobaack
 from loader import dp
 from states.statedata import statedata
 
+@dp.message_handler(text="Go Back.")
+async def show_phop(message: Message):
+    await message.answer(text="Quyidagilarni tanlang", reply_markup=menu1)
 
 @dp.message_handler(Command("menu"))
 async def show_menu(message: Message):
@@ -61,9 +64,7 @@ async def echmo(message: types.Message, state: FSMContext):
             await message.answer(text="Quyidagilarni tanlang", reply_markup=menu1)
 
 
-@dp.message_handler(text="Go Back.")
-async def show_phop(message: Message):
-    await message.answer(text="Quyidagilarni tanlang", reply_markup=menu1)
+
 
 
 @dp.message_handler(text="📗 Tanqidiy Fikrlash")
