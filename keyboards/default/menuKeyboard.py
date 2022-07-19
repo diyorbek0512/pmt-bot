@@ -28,7 +28,7 @@ menu2 = ReplyKeyboardMarkup(
         ],
         [
             KeyboardButton(text="❔❓Namunaviy savollar"),
-            KeyboardButton(text="Go back.")
+            KeyboardButton(text="Go Back.")
         ]
     ],
     resize_keyboard=True

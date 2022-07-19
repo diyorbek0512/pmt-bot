@@ -7,9 +7,7 @@ from keyboards.default.pythonkeyboard import menupython, menupythona, menupython
 from loader import dp
 from states.statedata import statedata
 
-@dp.message_handler(text="Go Back.")
-async def show_phop(message: Message):
-    await message.answer(text="Quyidagilarni tanlang", reply_markup=menu1)
+
 
 @dp.message_handler(Command("menu"))
 async def show_menu(message: Message):
