@@ -42,7 +42,7 @@ async def echmo(message: types.Message, state: FSMContext):
     y = "cdeacdcbbcacbdbbbbdd"
     cnt = 0
     @dp.message_handler(text="Go Back.")
-    async def show_phop(message: Message):
+    async def show_phoph(message: Message):
         await state.finish()
         await message.answer(text="Quyidagilarni tanlang", reply_markup=menu1)
     if len(message.text) == 20:
@@ -147,9 +147,9 @@ async def show_msg(message: Message):
 # async def show_alkali(message: Message):
 #     await message.answer_photo("https://t.me/qmkdetb/33", caption="Ingliz tili \nTo'plamdan namuna")
 #
-# @dp.message_handler(text="Go back.")
-# async def show_kali(message: Message):
-#     await message.answer("O'zingizga muhim bo'lgan bo'limni tanlashingiz mumkin", reply_markup=menu1)
+@dp.message_handler(text="Go back.")
+async def show_kali(message: Message):
+    await message.answer("O'zingizga muhim bo'lgan bo'limni tanlashingiz mumkin", reply_markup=menu1)
 
 # @dp.message_handler(text="🔍MAXSUS TO'PLAM")
 # async def sjwww(message: Message):
