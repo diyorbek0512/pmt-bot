@@ -24,7 +24,7 @@ menu2 = ReplyKeyboardMarkup(
     keyboard= [
         [
          KeyboardButton(text="❇Prezident Maktabi Hayoti❇"),
-         #KeyboardButton(text="🔍MAXSUS TO'PLAM"),
+        KeyboardButton(text="🎁BONUS"),
         ],
         [
             KeyboardButton(text="❔❓Namunaviy savollar"),

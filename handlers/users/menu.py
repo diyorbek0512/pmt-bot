@@ -256,3 +256,9 @@ async def addaaaq(message: Message):
 @dp.message_handler(text="💻Reklama xizmati")
 async def adsd1qm(message: Message):
     await message.answer("💻Reklama xizmatiga xush kelibsiz!\nBu bot orqali o'zingizning ilmiy reklamalaringizni tarqatishingiz mumkin.\n✅Buning uchun @school_admin0 bilan aloqaga chiqing")
+
+
+
+@dp.message_handler(text="🎁BONUS")
+async def sapdoiq(message: Message):
+    await message.answer("Assalomu alaykum. Prezident maktabiga tayyorgarlik ko'ryabsizmi? Unda ushbu to'plam aynan siz uchun. Siz ushbu test to'plamida o'z natijangizni bilib olishingiz mumkin. Ushbu to'plam ichida 50ta savollar bo'lib 25ta muammoli masalalardan va 25ta tanqidiy fikrlashdan savollar bor. Agar siz javoblarni @school_admin0 ga yuborsangiz va natijangiz a'lo bo'lsa sizga bonus tariqasida 🎁🎁ingliz tilidan to'plam🎁🎁 qo'shib beriladi.\nImkoniyatni qo'ldan boy bermang. \n\nUshbu to'plamni @school_admin0 dan xarid qilasiz!!!")
