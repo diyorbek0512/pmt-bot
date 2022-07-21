@@ -80,9 +80,9 @@ menu5 = ReplyKeyboardMarkup(
 
 menu6 = ReplyKeyboardMarkup(
     keyboard= [
-        [
-         KeyboardButton(text="Matematikadan video darslar")
-        ],
+        # [
+        #  KeyboardButton(text="Matematikadan video darslar")
+        # ],
         [
          KeyboardButton(text="Ingliz Tili"),
          KeyboardButton(text="Matematika"),

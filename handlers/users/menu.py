@@ -191,7 +191,7 @@ async def dfasssscp(message: Message):
 
 @dp.message_handler(text="▶YouTube kanalga ulanish")
 async def dfasssscp(message: Message):
-    await message.answer(text="https://www.youtube.com/c/PREZIDENTmaktabigabepultayyorlovkursi")
+    await message.answer(text="[https://www.youtube.com/c/PREZIDENTmaktabigabepultayyorlovkursi](https://www.youtube.com/c/PREZIDENTmaktabigabepultayyorlovkursi/videos?view=0&sort=p&shelf_id=0)", parse_mode="Markdown")
 
 @dp.message_handler(text="🏫Ixtisoslashtirilgan Maktablar")
 async def asds(message: Message):
